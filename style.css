@@ -43,6 +43,24 @@ figure {
 }
 
 
+.googleCalendar{
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 80%;
+}
+
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+
+
+
 .navbar {
   background-color: #000aca;
 }
