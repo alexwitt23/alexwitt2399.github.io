@@ -13,6 +13,10 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
+body, html {
+  height: 100%;
+}
+
 figure {
   position: relative;
   width: 100%;
@@ -22,13 +26,16 @@ figure {
 
 .home-logo {
   float: left;
-  position: relative;
   width: 10%;
   height: 150%;
 }
 
-.jumbotron {
 
+.jumbotron {
+  background-size: contain;
+  vertical-align: middle;
+  position: center center;
+  max-width: 110%;
   border: 10px solid rgb(0, 29, 108);
 }
 
@@ -38,6 +45,11 @@ figure {
   background-position: center center;
   position: relative;
   z-index: -2;
+}
+
+.letterhead {
+  max-width: 80%;
+  height: auto;
 }
 
 .home-img {
@@ -79,6 +91,7 @@ figure {
 }
 
 .navbar {
+  margin-bottom: 0px;
   background-color: #001d6c;
 
 }
