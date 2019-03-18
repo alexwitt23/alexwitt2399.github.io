@@ -38,7 +38,9 @@ figure {
   border: 10px solid rgb(0, 29, 108);  
 }
 
-
+.top-buffer { 
+  margin-top: 1px; 
+}
 
 .jumbotron {
   background-size: contain;
