@@ -31,6 +31,15 @@ figure {
 }
 
 
+.img-fluid {
+  object-fit: cover;
+  width: 100%;
+  height: 280px;
+  border: 10px solid rgb(0, 29, 108);  
+}
+
+
+
 .jumbotron {
   background-size: contain;
   vertical-align: middle;
