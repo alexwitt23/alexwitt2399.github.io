@@ -279,3 +279,9 @@ fieldset[disabled] .btn-sample.active {
   color: #FFFFFF; 
   background-color: #001D6C; 
 }
+
+.resp-container {
+  position: relative;
+  overflow: hidden;
+
+}
