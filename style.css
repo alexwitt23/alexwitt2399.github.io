@@ -27,7 +27,7 @@ figure {
 .home-logo {
   float: left;
   width: 10%;
-  height: 150%;
+  height: 100%;
 }
 
 
@@ -35,6 +35,10 @@ figure {
   object-fit: cover;
   width: 100%;
   height: 280px;
+  border: 10px solid rgb(0, 29, 108);  
+}
+.img-corporate {
+
   border: 10px solid rgb(0, 29, 108);  
 }
 
