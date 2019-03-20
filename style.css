@@ -285,3 +285,10 @@ fieldset[disabled] .btn-sample.active {
   overflow: hidden;
 
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+  border: 10px solid rgb(255,226,82);  
+}
+
