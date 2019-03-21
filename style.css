@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat');
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
@@ -15,6 +14,14 @@
 
 body, html {
   height: 100%;
+}
+
+body * {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p, h2, h3, h4, h5 * {
+  font-family: 'Monteserrat', serif !important;
 }
 
 figure {
@@ -53,6 +60,15 @@ figure {
   max-width: 110%;
   border: 10px solid rgb(0, 29, 108);
 }
+
+.jumbotron-yellow-border {
+  background-size: contain;
+  vertical-align: middle;
+  position: center center;
+  max-width: 110%;
+  border: 10px solid rgb(255,226,82);  
+}
+
 
 .bg-cover {
   background-size: cover;
@@ -290,6 +306,63 @@ fieldset[disabled] .btn-sample.active {
 .responsive {
   width: 100%;
   height: auto;
-  border: 10px solid rgb(255,226,82);  
+  border: 7px solid rgb(255,226,82);  
+}
+
+.rounded {
+  border: 2px solid rgb(255,226,82); 
+}
+
+.table {
+  margin: auto;
+  width: 50% !important; 
+}
+
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%; }
+  .gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease; }
+  .gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); }
+  
+  @media (max-width: 450px) {
+  .gallery {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-width: 100%;
+  -moz-column-width: 100%;
+  column-width: 100%;
+  }
+  }
+  
+  @media (max-width: 400px) {
+  .btn.filter {
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  }
+  }
+
+
+.card-blue {
+  background-color:  rgb(255,226,82);
+}
+
+.card-yellow {
+  background-color:  #001D6C
+}
+
+.card-header {
+
+  font-size: 10px;
+
 }
 
