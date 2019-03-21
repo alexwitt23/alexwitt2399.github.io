@@ -66,7 +66,7 @@ figure {
   vertical-align: middle;
   position: center center;
   max-width: 110%;
-  border: 10px solid rgb(255,226,82);  
+  border: 10px solid rgb(255,215,0);  
 }
 
 
@@ -100,7 +100,7 @@ figure {
 .googleCalendar{
   position: relative;
   height: 0;
-  width: 100%;  border: 3px solid rgb(239,220,11);
+  width: 100%;  border: 3px solid rgb(255,215,0);
   padding-bottom: 80%;
   border: 7px solid rgb(0, 29, 108);
 }
@@ -115,7 +115,7 @@ figure {
 }
 
 .home-logo {
-  border: 3px solid rgb(239,220,11);
+  border: 3px solid rgb(255,215,0);
 }
 
 .nav-link {
@@ -263,7 +263,7 @@ figure {
 .btn-sample.active, 
 .open .dropdown-toggle.btn-sample { 
   color: #001D6C; 
-  background-color: #FFE252; 
+  background-color: rgb(255,215,0); 
   border-color: #130269; 
 } 
  
@@ -306,11 +306,11 @@ fieldset[disabled] .btn-sample.active {
 .responsive {
   width: 100%;
   height: auto;
-  border: 7px solid rgb(255,226,82);  
+  border: 7px solid rgb(255,215,0);  
 }
 
 .rounded {
-  border: 2px solid rgb(255,226,82); 
+  border: 2px solid rgb(255,215,0); 
 }
 
 .table {
@@ -353,7 +353,7 @@ fieldset[disabled] .btn-sample.active {
 
 
 .card-blue {
-  background-color:  rgb(255,226,82);
+  background-color:  rgb(255,215,0);
 }
 
 .card-yellow {
