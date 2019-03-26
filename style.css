@@ -315,7 +315,7 @@ fieldset[disabled] .btn-sample.active {
 .responsive {
   width: 100%;
   height: auto;
-  border: 7px solid rgb(255,215,0);  
+  border: 5px solid rgb(255,215,0);  
 }
 
 .rounded {
