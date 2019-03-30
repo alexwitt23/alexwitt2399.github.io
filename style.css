@@ -376,4 +376,16 @@ fieldset[disabled] .btn-sample.active {
   margin-bottom: 100px;
 }
 
+.gallery-img-gold {
+  width: 100%;
+  height: auto;
+  border: 7px solid rgb(255,215,0);  
+}
+
+.gallery-img-blue {
+  width: 100%;
+  height: auto;
+  border: 7px solid  #001D6C;  
+}
+
 
