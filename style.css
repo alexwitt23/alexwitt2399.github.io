@@ -110,7 +110,6 @@ figure {
   position: relative;
   height: 0;
   padding-bottom: 50%;
-  border: 7px solid rgb(0, 29, 108);
   overflow: hidden;
 }
 
