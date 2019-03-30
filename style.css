@@ -109,9 +109,9 @@ figure {
 .googleCalendar{
   position: relative;
   height: 0;
-  width: 100%;  border: 3px solid rgb(255,215,0);
   padding-bottom: 80%;
   border: 7px solid rgb(0, 29, 108);
+  overflow: hidden;
 }
 
 
