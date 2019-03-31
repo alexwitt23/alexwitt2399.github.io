@@ -365,6 +365,18 @@ fieldset[disabled] .btn-sample.active {
   }
 
 
+.card-blue {
+  background-color:  rgb(255,215,0);
+}
+
+.card-yellow {
+  background-color:  #001D6C
+}
+
+.card-header  a {
+  color: white;
+}
+
 .card-border-color {
   border: 7px solid #001D6C;
 }
