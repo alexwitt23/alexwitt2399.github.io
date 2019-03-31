@@ -29,6 +29,11 @@ body * {
   font-family: 'Libre Baskerville', serif;
 }
 
+#image {
+  image-orientation: from-image; 
+}
+
+
 p, h2, h3, h4, h5 * {
   font-family: 'Monteserrat', serif !important;
 }
@@ -360,16 +365,8 @@ fieldset[disabled] .btn-sample.active {
   }
 
 
-.card-blue {
-  background-color:  rgb(255,215,0);
-}
-
-.card-yellow {
-  background-color:  #001D6C
-}
-
-.card-header  a {
-  color: white;
+.card-border-color {
+  border: 7px solid #001D6C;
 }
 
 .bottom-buffer {
