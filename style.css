@@ -377,8 +377,12 @@ fieldset[disabled] .btn-sample.active {
   color: white;
 }
 
-.card-border-color {
+.card-border-blue {
   border: 7px solid #001D6C;
+}
+
+.card, card-header{
+  cursor: pointer;
 }
 
 .bottom-buffer {
