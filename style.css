@@ -56,11 +56,11 @@ figure {
   object-fit: cover;
   width: 100%;
   height: 350px;
-  border: 10px solid rgb(0, 29, 108);  
+  border: 7px solid rgb(0, 29, 108);  
 }
 .img-corporate {
 
-  border: 10px solid rgb(0, 29, 108);  
+  border: 7px solid rgb(0, 29, 108);  
 }
 
 .top-buffer { 
@@ -72,7 +72,7 @@ figure {
   vertical-align: middle;
   position: center center;
   max-width: 110%;
-  border: 10px solid rgb(0, 29, 108);
+  border: 7px solid rgb(0, 29, 108);
 }
 
 .jumbotron-yellow-border {
@@ -80,7 +80,7 @@ figure {
   vertical-align: middle;
   position: center center;
   max-width: 110%;
-  border: 10px solid rgb(255,215,0);  
+  border: 7px solid rgb(255,215,0);  
 }
 
 
@@ -365,21 +365,21 @@ fieldset[disabled] .btn-sample.active {
   }
 
 
-.card-blue {
-  background-color:  rgb(255,215,0);
+.card-blue-border {
+  border: 7px solid #001D6C;
+  background-color:  white;
 }
 
-.card-yellow {
+.card-blue {
+  border: 7px solid #001D6C;
   background-color:  #001D6C
+  
 }
 
 .card-header  a {
   color: white;
 }
 
-.card-border-blue {
-  border: 7px solid #001D6C;
-}
 
 .card, card-header{
   cursor: pointer;
