@@ -228,7 +228,7 @@ figure {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #ffffff;
   }
@@ -242,7 +242,7 @@ figure {
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #ffffff;
   }
