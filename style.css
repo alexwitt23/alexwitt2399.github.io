@@ -141,8 +141,8 @@ figure {
 }
 .navbar .navbar-nav .nav-link {
   color: #ecf0f1;
-  border-radius: .25rem;
-  margin: 0 0.25em;
+  border-radius: .15rem;
+  margin: 0 0.15em;
 }
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
