@@ -114,6 +114,22 @@ figure {
   height: 100%;
 }
 
+.googleCalendar-mobile{
+  position: relative;
+  height: 0;
+  padding-bottom: 100%;
+
+}
+
+
+.googleCalendar-mobile iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
 .home-logo {
   border: 3px solid #e8b127;
 }
