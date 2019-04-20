@@ -271,7 +271,7 @@ figure {
 .btn-sample.active, 
 .open .dropdown-toggle.btn-sample { 
   color: #001D6C; 
-  background-color: rgb(255,215,0); 
+  background-color: #e8b127; 
   border-color: #130269; 
 } 
  
@@ -314,11 +314,11 @@ fieldset[disabled] .btn-sample.active {
 .responsive {
   width: 100%;
   height: auto;
-  border: 5px solid rgb(255,215,0);  
+  border: 5px solid #e8b127;  
 }
 
 .rounded {
-  border: 2px solid rgb(255,215,0); 
+  border: 2px solid #e8b127; 
 }
 
 .table {
@@ -355,7 +355,7 @@ fieldset[disabled] .btn-sample.active {
 .gallery-img-gold {
   width: 100%;
   height: auto;
-  border: 7px solid rgb(255,215,0);  
+  border: 7px solid #e8b127;  
 }
 
 .gallery-img-blue {
