@@ -19,8 +19,9 @@ p, h2, h3, h4, h5 * {
 }
 
 p {
-  font-size:16px !important;
+  font-size:18px !important;
 }
+
 
 figure {
   position: relative;
@@ -87,11 +88,13 @@ figure {
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: rgb(225,225,225);
+    border-color: #FFFFFF;
+    font-size: 15px !important;
 }
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(225,225,225,0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: #FFFFFF;
 }
 
 
@@ -123,11 +126,11 @@ figure {
   background-color: #001d6c;
 }
 .navbar .navbar-brand {
-  color: #ecf0f1;
+  color: #FFFFFF;
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
-  color: #001d6c !important;
+  color: #FFFFFF !important;
 }
 .navbar .navbar-text {
   color: #ecf0f1;
@@ -154,9 +157,14 @@ figure {
 .navbar .navbar-nav .nav-item.show .nav-link,
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
-  color: #001d6c !important;
-  background-color: #ffffff !important;
+  color: #FFFFFF !important;
+  background-color: #001D6C !important;
 }
+.navbar .navbar-nav .nav-item.active .nav-link:hover {
+  color: #001D6C !important;
+  background-color: #FFFFFF !important; 
+}
+
 .navbar .navbar-toggle {
   border-color: #ffffff !important;
 }
@@ -172,7 +180,7 @@ figure {
   border-color: #ecf0f1 !important;
 }
 .navbar .navbar-link {
-  color: #ecf0f1 !important;\l
+  color: #ecf0f1 !important;
 }
 .navbar .navbar-link:hover {
   color: #001d6c !important;
@@ -245,6 +253,11 @@ figure {
   color: #001d6c;
   background-color: #ffffff;
 }
+
+.navbar{
+  border:red !important;
+}
+
 
 .btn-sample { 
   color: #001D6C; 
@@ -362,3 +375,4 @@ fieldset[disabled] .btn-sample.active {
     width: 2000px;
   }
 }
+
