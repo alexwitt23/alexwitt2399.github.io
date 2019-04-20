@@ -64,7 +64,7 @@ figure {
   vertical-align: middle;
   position: center center;
   max-width: 110%;
-  border: 7px solid rgb(255,215,0);  
+  border: 7px solid #e8b127;  
 }
 
 
@@ -112,7 +112,7 @@ figure {
 }
 
 .home-logo {
-  border: 3px solid rgb(255,215,0);
+  border: 3px solid #e8b127;
 }
 
 .nav-link {
