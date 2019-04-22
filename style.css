@@ -57,7 +57,7 @@ figure {
   vertical-align: middle;
   position: center center;
   max-width: 110%;
-  border: 7px solid rgb(0, 29, 108);
+  border: 5px solid rgb(0, 29, 108);
 }
 
 .jumbotron-yellow-border {
@@ -65,7 +65,7 @@ figure {
   vertical-align: middle;
   position: center center;
   max-width: 110%;
-  border: 7px solid #e8b127;  
+  border: 5px solid #e8b127;  
 }
 
 
@@ -290,6 +290,19 @@ figure {
   background-color: #001D6C; 
 }
 
+.btn-candidates-card {
+  color: #001D6C; 
+  font-size: 25px;
+}
+
+ 
+
+.btn-candidates-card .badge { 
+  color: #FFFFFF; 
+  background-color: #001D6C; 
+}
+
+
 .resp-container {
   position: relative;
   overflow: hidden;
@@ -340,13 +353,13 @@ figure {
 .gallery-img-gold {
   width: 100%;
   height: auto;
-  border: 7px solid #e8b127;  
+  border: 5px solid #e8b127;  
 }
 
 .gallery-img-blue {
   width: 100%;
   height: auto;
-  border: 7px solid  #001D6C;  
+  border: 5px solid  #001D6C;  
 }
 
 .img-responsive {
