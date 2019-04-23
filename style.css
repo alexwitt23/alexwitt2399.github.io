@@ -41,7 +41,8 @@ figure {
   object-fit: cover;
   width: 100%;
   height: 350px;
-  border: 7px solid rgb(0, 29, 108);  
+  border: 7px solid rgb(0, 29, 108); 
+  max-width: 300px; 
 }
 .img-corporate {
 
@@ -290,17 +291,21 @@ figure {
   background-color: #001D6C; 
 }
 
+
 .btn-candidates-card {
   color: #001D6C; 
   font-size: 25px;
 }
 
- 
-
-.btn-candidates-card .badge { 
+.btn-candidates-card-blue {
   color: #FFFFFF; 
-  background-color: #001D6C; 
+  font-size: 25px;
 }
+
+
+.btn-candidates-card-blue:hover { 
+  color: #FFFFFF; 
+} 
 
 
 .resp-container {
@@ -373,4 +378,6 @@ figure {
     width: 2000px;
   }
 }
+
+
 
