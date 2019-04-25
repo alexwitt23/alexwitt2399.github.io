@@ -412,3 +412,16 @@ figure {
   background: #3083FF;
   color: white;
 }
+
+.activesSheet{
+  position: relative;
+  height: 100%;
+}
+
+.activesSheet iframe{
+  position: relative;
+  top: 0;
+  height: 1000px;
+  width: 100%;
+  max-width: 420px;
+}
