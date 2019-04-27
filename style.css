@@ -359,6 +359,8 @@ figure {
   width: 100%;
   height: auto;
   border: 5px solid #e8b127;  
+  width:320px;
+  height:150px;
 }
 
 .gallery-img-blue {
@@ -386,9 +388,9 @@ figure {
 }
 
 .fa {
-  padding: 20px;
-  font-size: 25px;
-  width: 65px;
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -424,4 +426,37 @@ figure {
   height: 1000px;
   width: 100%;
   max-width: 420px;
+}
+
+
+@media (min-width: 34em) {
+  .card-columns {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+}
+
+@media (min-width: 48em) {
+  .card-columns {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+}
+
+@media (min-width: 62em) {
+  .card-columns {
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+  }
+}
+
+@media (min-width: 75em) {
+  .card-columns {
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+  }
 }
